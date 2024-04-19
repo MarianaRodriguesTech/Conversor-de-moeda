@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <link rel="shortcut icon" href="img/taxa-de-cambio.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
@@ -7,23 +8,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Conversor de Moedas</title>
 </head>
+
 <body>
     <header>
         <h1>Conversor de Real para Dólar</h1>
     </header>
-    
+
     <input type="checkbox" name="#" id="toggle" class="toggle-btn">
     <label for="toggle" class="toggle-label"></label>
 
     <section>
         <label for="real">Insira o valor em Real:</label>
         <input type="number" id="real" oninput="Converter()" placeholder="Real(BRL)">
-        
+
         <label for="dolar">Valor em dólar:</label>
-        <input type="number" id="dolar" oninput="Converter()" placeholder="Dólar dos Estados Unidos(USD)" >
+        <input type="number" id="dolar" oninput="Converter()" placeholder="Dólar dos Estados Unidos(USD)">
     </section>
 
+    <div class="gif">
+        <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExazhwYnBuYXBvbHd5dXdtMnh6NTFrM3lyZmd4ZXgxdGVnNGdnNzg3YiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/AuG7qwUzshT7lXy7FB/giphy.gif"
+            alt="">
+    </div>
+
+    
+    <footer>
+        <p>Desenvolvido por Mariana Rodrigues | 2024 &copy;</p>
+        <!-- Colocar o Linkedin -->
+    </footer>
     <script src="main.js"></script>
-    <footer>Desenvolvido por Mariana Rodrigues | 2024 &copy;</footer>
 </body>
 </html>
